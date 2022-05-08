@@ -1,0 +1,185 @@
+body{
+    max-width: 1200px;
+    margin:auto;
+    font-size: 32px;
+    font-family: "メイリオ";
+}
+
+.headers{
+    position: relative;
+    margin-bottom: 30px;
+}
+
+header{
+    text-align: center;
+}
+
+.hearderimg{
+    position: relative;
+}
+
+h1{
+    position: absolute;
+    top: -45px;
+    left: 360px;
+    font-size: 70px;
+    color: white;
+    font-family: "HiraMinProN-W6" , "MS P明朝";
+}
+
+.setsumei{
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.amount_table{
+    table-layout: fixed;
+    display:flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.amount_table td{
+    width: 240px;
+    height: 50px;
+}
+.amount_table th{
+    width:240px ;
+    height: 50px;
+}
+
+.players{
+    table-layout: fixed;
+    display:flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.players td{
+    border: 2px solid #bfbfbf;
+    width: 240px;
+    height: 30px;
+    text-align: center;
+}
+.players th{
+    border: 2px solid #bfbfbf;
+    background-color: gray;
+    color: white;
+    width:240px ;
+    height: 30px;
+    text-align: center;
+}
+
+.players_2{
+    table-layout: fixed;
+    display:flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.players_2 td{
+    width: 160px;
+    height: 50px;
+    text-align: center;
+}
+.players_2 th{
+    background-color: gray;
+    color: white;
+    width:240px ;
+    height: 50px;
+    text-align: center;
+}
+
+.player_name{
+    width: 240px;
+    text-align: left;
+    height: 30px;
+}
+.amount_number{
+    width: 240px;
+    text-align: center;
+    height: 30px;
+}
+
+.amount_input, .player_1_input, .player_2_input, .player_3_input, .player_4_input, .player_5_input{
+    width: 240px;
+    text-align: left;
+    /* padding: 1px ; */
+    height: 20px;
+}
+
+.amountNumber_cfm, .player_1_poi, .player_2_poi, .player_3_poi, .player_4_poi, .player_5_poi{
+    width: 240px;
+    text-align: left;
+    padding: 16px ;
+    padding-right: 64px;
+    height: 50px;
+}
+ 
+.player_1_payment, .player_2_payment, .player_3_payment, .player_4_payment, .player_5_payment{
+    width: 240px;
+    text-align: left;
+    padding: 16px ;
+    padding-right: 64px;
+    height: 50px;
+}
+
+.formtext{
+    font-size: 32px;
+    width: 328px;
+    height: 36px;
+    margin: 8px;
+    border-radius: 5px;
+    border: 1px solid #bfbfbf;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding-left: 8px;
+}
+.button{
+    display       : inline-block;
+    font-size: 20px ;
+    text-align    : center;      /* 文字位置   */
+    cursor        : pointer;     /* カーソル   */
+    padding       : 12px 12px;   /* 余白       */
+    background    : #000000;     /* 背景色     */
+    color         : #ffffff;     /* 文字色     */
+    line-height   : 1em;         /* 1行の高さ  */
+    transition    : .3s;         /* なめらか変化 */
+  }
+.button:hover {
+    color         : #000000;     /* 背景色     */
+    background    : #ffffff;     /* 文字色     */
+  }
+.submitbutton{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+/* ここから2ページ目 */
+.jankencall{
+    text-align: center;
+    padding-bottom: 40px;
+    font-family: "HiraMinProN-W6" , "MS P明朝";
+}
+.poibox{
+    width: 300px;
+    height: 60px;
+    background-color: black;
+    margin: 0 auto;
+    cursor: pointer;
+    color: white;
+    margin-bottom: 40px;
+    text-align: center;
+    padding-top: 10px;
+    transition    : .3s;         /* なめらか変化 */
+    border: 2px solid #000000;
+    border-bottom: solid 4px #627295;
+    font-family: "HiraMinProN-W6" , "MS P明朝";
+}
+
+.poibox:active {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+    border-bottom: none;
+  }
